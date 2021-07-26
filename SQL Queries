@@ -1,0 +1,24 @@
+### Queries
+
+In this sections I will display some of the queries I used to answer some of the business questions. 
+
+*What are the sales per month?*
+```
+    SELECT EXTRACT (MONTH FROM payment_date) AS month_number, 						
+    CASE WHEN (EXTRACT (MONTH FROM payment_date) = 2) THEN 'February'						
+    WHEN (EXTRACT (MONTH FROM payment_date) = 3) THEN 'March'						
+	  WHEN (EXTRACT (MONTH FROM payment_date) = 4) THEN 'April'					
+	  ELSE 'May' END AS month_name,					
+    SUM(amount)						
+    FROM payment						
+    GROUP BY month_number						
+    ORDER BY month_number;						
+```
+		
+		
+		
+		
+		
+		
+		
+		
