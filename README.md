@@ -8,14 +8,17 @@
 * Which movies contributed the most/least to revenue gain?
 * What was the average rental duration for all videos?
 * Which countries are Rockbuster customers based in?
-* Where are customers with a high l ifetime value based?
+* Where are customers with a high lifetime value based?
 * Do sales figures vary between geographic regions?
 
 ### Goal 
 As a Data Analyst at Rockbuster Stealth* LLC, I am supposed to address these business questions using SQL and visualizations in Tableau. 
 
 ### Data Source
-The database used for this project can be found in the following [link](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
+The database used for this project can be found in the following [link](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip).
+
+### Report and Visualizations 
+You can check the final report in Tableau clicking this [link](https://public.tableau.com/app/profile/carolina.pachon/viz/RockbusterAnalysis/Story1).
 
 ### ERD Diagram 
 To get an idea of how the dataset looks like, this is a diagram that shows the relationships among the different entities.  
